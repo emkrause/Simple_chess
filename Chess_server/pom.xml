@@ -11,5 +11,25 @@
 
     <artifactId>Chess_server</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${version.jedis}</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>${version.elastic}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>server</finalName>
+    </build>
 
 </project>

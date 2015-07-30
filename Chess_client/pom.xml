@@ -11,5 +11,8 @@
 
     <artifactId>Chess_client</artifactId>
 
+    <build>
+        <finalName>Client</finalName>
+    </build>
 
 </project>
