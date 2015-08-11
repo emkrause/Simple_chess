@@ -18,6 +18,8 @@
         <version.junit>3.8.1</version.junit>
         <version.jedis>2.7.3</version.jedis> <!-- old 2.6.2 -->
         <version.elastic>1.7.1</version.elastic>
+        <version.rmq>3.5.4</version.rmq>
+        <version.cdb>2.1.4</version.cdb>  <!-- // 2.1.4 -->
     </properties>
 
     <dependencies>
@@ -33,6 +35,17 @@
             <version>${version.junit}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>${version.rmq}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.couchbase.client</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${version.cdb}</version>
+        </dependency>
+
 
     </dependencies>
 

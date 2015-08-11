@@ -33,5 +33,9 @@
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.12" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:3.5.4" level="project" />
+    <orderEntry type="library" name="Maven: com.couchbase.client:java-client:2.1.4" level="project" />
+    <orderEntry type="library" name="Maven: com.couchbase.client:core-io:1.1.4" level="project" />
+    <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.0.4" level="project" />
   </component>
 </module>

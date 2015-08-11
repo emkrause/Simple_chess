@@ -36,5 +36,9 @@ public class ESRepository {
 //        return (Client) tsc;
 //    }
 
+    public void writeLog() {
+
+    }
+
 
 }
